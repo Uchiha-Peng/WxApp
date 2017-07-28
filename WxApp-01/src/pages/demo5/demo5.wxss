@@ -1,0 +1,11 @@
+.container{
+
+  padding: 10px;
+}
+input
+{
+border:1px solid lightgray;
+border-radius: 3px;
+margin-top: 10px;
+margin-bottom: 10px;
+}

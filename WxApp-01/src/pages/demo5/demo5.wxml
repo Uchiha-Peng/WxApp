@@ -1,0 +1,15 @@
+<view class="container">
+<view>用户名</view>
+<view>
+<input placeholder="请输入用户名/邮箱/手机号码" bindinput="usernameInput"  />
+</view>
+
+<view>用户名</view>
+<view>
+<input password="true" placeholder="请输入密码" bindinput="userpwdInput"  />
+</view>
+
+<view>
+<button type="primary" bindtap="btnLogin" >登录</button>
+</view>
+</view>

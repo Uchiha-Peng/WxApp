@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "src/pages/demo3/demo3",
+    "src/pages/demo2/demo2",
+    "src/pages/demo1/demo1",
+    "src/pages/first/first",
+    "src/pages/index/index",
+    "src/pages/demo4/demo4",
+    "src/pages/demo5/demo5"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Uchiha-Peng",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#00000",
+    "selectedColor": "#48C23D",
+    "backgroundColor": "#000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "src/pages/demo3/demo3",
+        "text": "首页",
+        "iconPath": "src/images/icon/favorite.png",
+        "selectedIconPath": "src/images/selectedicon/favorite.png"
+      },
+      {
+        "pagePath": "src/pages/demo2/demo2",
+        "text": "搜索",
+        "iconPath": "src/images/icon/my.png",
+        "selectedIconPath": "src/images/selectedicon/my.png"
+      },
+      {
+        "pagePath": "src/pages/demo1/demo1",
+        "text": "消息",
+        "iconPath": "src/images/icon/shopcart.png",
+        "selectedIconPath": "src/images/selectedicon/shopcart.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+  <image mode="aspectFill" src="http://mvcapi.azurewebsites.net/images/{{photoSrc}}"></image>  
+  <view>{{proName}}</view>

@@ -1,0 +1,10 @@
+<view class="container">
+ <scroll-view scroll-y="true" style="height: 100%;" >
+      <view wx:key="this" wx:for="{{arrays}}">
+      <!-- 拼接字符串 -->
+      <!-- <image src="http://mvcapi.azurewebsites.net/images/{{item.photoSrc}}"></image> -->
+      <view  data-id="{{item.proId}}" data-src="{{item.photoSrc}}" data-name="{{item.proName}}" bindtap="btnClick" > {{index}} {{item.proName}} - ￥{{item.price}}</view>
+       
+      </view>
+   </scroll-view>
+</view>

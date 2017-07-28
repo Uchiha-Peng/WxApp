@@ -1,0 +1,11 @@
+
+view{
+
+width: 100%;
+
+display: flex;
+margin-top: 50%;
+
+justify-content: center;
+
+}

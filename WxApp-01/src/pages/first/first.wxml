@@ -1,0 +1,26 @@
+<!-- 引用自定义模板组件——引用一整个wxml的内容 -->
+<include src="../templete/header"/>
+<button type="default" > default </button>
+<button type="primary" bindtap="btnClick" > {{btnTxt}} </button>
+
+<view wx:if="{{isShow}}" >{{text}}1</view>
+<view wx:else>{{text}}2</view>
+
+<view wx:for="{{arrays}}">
+{{item}}
+</view>
+
+<!-- 自定义项 -->
+<view wx:for="{{arrays}}" wx:for-item="items">
+{{index}}--{{items}}
+</view>
+
+<!-- 引用自定义模板组件——引用某个wxml下的某个templete模板 -->
+<import src="../templete/footer"/>
+<!-- 导入模板 -->
+<template is="footer1" data="{{txt:'导入设置的内容.....'}}" />
+
+<!-- 引用自定义模板组件 -->
+<import src="../templete/footer"/>
+<!-- 导入模板 -->
+<template is="footer2" data="{{txt:'导入设置的内容.....'}}" />
